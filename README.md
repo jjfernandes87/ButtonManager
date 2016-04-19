@@ -7,9 +7,9 @@ Crie botões customizados a partir do próprio Interface Builder do Xcode, confi
 Você pode configurar a aparência do botão através do Xcode Inspector
 
 ![Xcode Inspector]
-(http://imgur.com/9DcgGVr)
+(http://i.imgur.com/9DcgGVr.png?1)
 
-(http://imgur.com/fplQvsU)
+(http://i.imgur.com/fplQvsU.png?1)
 
 Ou você pode criar o botão em seu próprio código, fazendo isso:
 
