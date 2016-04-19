@@ -27,64 +27,64 @@
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use it</h3>
 
-<h2>Você pode configurar a aparência do botão através do Xcode Inspector</h2>
+<b>Você pode configurar a aparência do botão através do Xcode Inspector</b>
 
 <p><img src="http://i.imgur.com/9DcgGVr.png?1"></p>
 
 <p><img src="http://i.imgur.com/fplQvsU.png?1"></p>
 
-<h2>Ou você pode criar o botão em seu próprio código, fazendo isso:</h2>
+<b>Ou você pode criar o botão em seu próprio código, fazendo isso:</b>
 
 <p><code>
-override func viewDidLoad() {
-  super.viewDidLoad()
-  createSimpleButtonManagerNoLoading()
-  createSimpleButtonManagerWithLoading()
-  createSimpleButtonManagerDisable()
+override func viewDidLoad() {</br>
+  super.viewDidLoad()</br>
+  createSimpleButtonManagerNoLoading()</br>
+  createSimpleButtonManagerWithLoading()</br>
+  createSimpleButtonManagerDisable()</br>
 }
 </code></p>
 
 <p><code>
-func createSimpleButtonManagerNoLoading() {
-    let button = ButtonManager(frame: CGRectMake(15, 140, 345, 44))
-    button.setTitle("no loading", forState: .Normal)
-    button.fillColor = UIColor.lightGrayColor()
-    button.strokeColor = UIColor.darkGrayColor()
-    button.textColor = UIColor.darkGrayColor()
-    button.loading = false
-    button.cornerRadius = 5
-    button.borderWidth = 1
-    
-    view.addSubview(button)
+func createSimpleButtonManagerNoLoading() {</br>
+    let button = ButtonManager(frame: CGRectMake(15, 140, 345, 44))</br>
+    button.setTitle("no loading", forState: .Normal)</br>
+    button.fillColor = UIColor.lightGrayColor()</br>
+    button.strokeColor = UIColor.darkGrayColor()</br>
+    button.textColor = UIColor.darkGrayColor()</br>
+    button.loading = false</br>
+    button.cornerRadius = 5</br>
+    button.borderWidth = 1</br>
+    </br>
+    view.addSubview(button)</br>
 }
 </code></p>
 
 <p><code>
-func createSimpleButtonManagerWithLoading() {
-    let button = ButtonManager(frame: CGRectMake(15, 204, 345, 44))
-    button.setTitle("with loading", forState: .Normal)
-    button.fillColor = UIColor.darkGrayColor()
-    button.strokeColor = UIColor.lightGrayColor()
-    button.textColor = UIColor.lightGrayColor()
-    button.cornerRadius = 5
-    button.borderWidth = 1
-    
-    view.addSubview(button)
+func createSimpleButtonManagerWithLoading() {</br>
+    let button = ButtonManager(frame: CGRectMake(15, 204, 345, 44))</br>
+    button.setTitle("with loading", forState: .Normal)</br>
+    button.fillColor = UIColor.darkGrayColor()</br>
+    button.strokeColor = UIColor.lightGrayColor()</br>
+    button.textColor = UIColor.lightGrayColor()</br>
+    button.cornerRadius = 5</br>
+    button.borderWidth = 1</br>
+    </br>
+    view.addSubview(button)</br>
 }
 </code></p>
 
 <p><code>
-func createSimpleButtonManagerDisable() {
-    let button = ButtonManager(frame: CGRectMake(15, 268, 345, 44))
-    button.setTitle("disable", forState: .Normal)
-    button.fillColor = UIColor.lightGrayColor()
-    button.strokeColor = UIColor.lightGrayColor()
-    button.textColor = UIColor.darkGrayColor()
-    button.cornerRadius = 5
-    button.borderWidth = 1
-    button.disable = false
-    
-    view.addSubview(button)
+func createSimpleButtonManagerDisable() {</br>
+    let button = ButtonManager(frame: CGRectMake(15, 268, 345, 44))</br>
+    button.setTitle("disable", forState: .Normal)</br>
+    button.fillColor = UIColor.lightGrayColor()</br>
+    button.strokeColor = UIColor.lightGrayColor()</br>
+    button.textColor = UIColor.darkGrayColor()</br>
+    button.cornerRadius = 5</br>
+    button.borderWidth = 1</br>
+    button.disable = false</br>
+    </br>
+    view.addSubview(button)</br>
 }
 </code></p>
 
