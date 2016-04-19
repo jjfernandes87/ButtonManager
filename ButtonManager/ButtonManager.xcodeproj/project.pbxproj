@@ -7,27 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCBBE04F1CC6EF1500D260EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBE04E1CC6EF1500D260EF /* AppDelegate.swift */; };
-		FCBBE0511CC6EF1500D260EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBE0501CC6EF1500D260EF /* ViewController.swift */; };
-		FCBBE0541CC6EF1500D260EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBBE0521CC6EF1500D260EF /* Main.storyboard */; };
-		FCBBE0561CC6EF1500D260EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBBE0551CC6EF1500D260EF /* Assets.xcassets */; };
-		FCBBE0591CC6EF1500D260EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBBE0571CC6EF1500D260EF /* LaunchScreen.storyboard */; };
-		FCBBE0621CC6EF2700D260EF /* ButtonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBE0611CC6EF2700D260EF /* ButtonManager.swift */; };
+		FCBBE0701CC6F21F00D260EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBE06F1CC6F21F00D260EF /* AppDelegate.swift */; };
+		FCBBE0721CC6F21F00D260EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBE0711CC6F21F00D260EF /* ViewController.swift */; };
+		FCBBE0751CC6F21F00D260EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBBE0731CC6F21F00D260EF /* Main.storyboard */; };
+		FCBBE0771CC6F21F00D260EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBBE0761CC6F21F00D260EF /* Assets.xcassets */; };
+		FCBBE07A1CC6F21F00D260EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBBE0781CC6F21F00D260EF /* LaunchScreen.storyboard */; };
+		FCBBE0851CC6F21F00D260EF /* ButtonManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBE0841CC6F21F00D260EF /* ButtonManagerTests.swift */; };
+		FCBBE0901CC6F21F00D260EF /* ButtonManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBE08F1CC6F21F00D260EF /* ButtonManagerUITests.swift */; };
+		FCBBE09F1CC6F27000D260EF /* ButtonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBE09E1CC6F27000D260EF /* ButtonManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FCBBE0811CC6F21F00D260EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBBE0641CC6F21F00D260EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBBE06B1CC6F21F00D260EF;
+			remoteInfo = ButtonManager;
+		};
+		FCBBE08C1CC6F21F00D260EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBBE0641CC6F21F00D260EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBBE06B1CC6F21F00D260EF;
+			remoteInfo = ButtonManager;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		FCBBE04B1CC6EF1500D260EF /* ButtonManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCBBE04E1CC6EF1500D260EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCBBE0501CC6EF1500D260EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCBBE0531CC6EF1500D260EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCBBE0551CC6EF1500D260EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FCBBE0581CC6EF1500D260EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FCBBE05A1CC6EF1500D260EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCBBE0611CC6EF2700D260EF /* ButtonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonManager.swift; sourceTree = "<group>"; };
+		FCBBE06C1CC6F21F00D260EF /* ButtonManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBBE06F1CC6F21F00D260EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCBBE0711CC6F21F00D260EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCBBE0741CC6F21F00D260EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCBBE0761CC6F21F00D260EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCBBE0791CC6F21F00D260EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCBBE07B1CC6F21F00D260EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBBE0801CC6F21F00D260EF /* ButtonManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBBE0841CC6F21F00D260EF /* ButtonManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonManagerTests.swift; sourceTree = "<group>"; };
+		FCBBE0861CC6F21F00D260EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBBE08B1CC6F21F00D260EF /* ButtonManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBBE08F1CC6F21F00D260EF /* ButtonManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonManagerUITests.swift; sourceTree = "<group>"; };
+		FCBBE0911CC6F21F00D260EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBBE09E1CC6F27000D260EF /* ButtonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FCBBE0481CC6EF1500D260EF /* Frameworks */ = {
+		FCBBE0691CC6F21F00D260EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBBE07D1CC6F21F00D260EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBBE0881CC6F21F00D260EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +76,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FCBBE0421CC6EF1500D260EF = {
+		FCBBE0631CC6F21F00D260EF = {
 			isa = PBXGroup;
 			children = (
-				FCBBE04D1CC6EF1500D260EF /* ButtonManager */,
-				FCBBE04C1CC6EF1500D260EF /* Products */,
+				FCBBE06E1CC6F21F00D260EF /* ButtonManager */,
+				FCBBE0831CC6F21F00D260EF /* ButtonManagerTests */,
+				FCBBE08E1CC6F21F00D260EF /* ButtonManagerUITests */,
+				FCBBE06D1CC6F21F00D260EF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FCBBE04C1CC6EF1500D260EF /* Products */ = {
+		FCBBE06D1CC6F21F00D260EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCBBE04B1CC6EF1500D260EF /* ButtonManager.app */,
+				FCBBE06C1CC6F21F00D260EF /* ButtonManager.app */,
+				FCBBE0801CC6F21F00D260EF /* ButtonManagerTests.xctest */,
+				FCBBE08B1CC6F21F00D260EF /* ButtonManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCBBE04D1CC6EF1500D260EF /* ButtonManager */ = {
+		FCBBE06E1CC6F21F00D260EF /* ButtonManager */ = {
 			isa = PBXGroup;
 			children = (
-				FCBBE0601CC6EF2700D260EF /* ButtonManager */,
-				FCBBE04E1CC6EF1500D260EF /* AppDelegate.swift */,
-				FCBBE0501CC6EF1500D260EF /* ViewController.swift */,
-				FCBBE0521CC6EF1500D260EF /* Main.storyboard */,
-				FCBBE0551CC6EF1500D260EF /* Assets.xcassets */,
-				FCBBE0571CC6EF1500D260EF /* LaunchScreen.storyboard */,
-				FCBBE05A1CC6EF1500D260EF /* Info.plist */,
+				FCBBE09D1CC6F27000D260EF /* ButtonManager */,
+				FCBBE06F1CC6F21F00D260EF /* AppDelegate.swift */,
+				FCBBE0711CC6F21F00D260EF /* ViewController.swift */,
+				FCBBE0731CC6F21F00D260EF /* Main.storyboard */,
+				FCBBE0761CC6F21F00D260EF /* Assets.xcassets */,
+				FCBBE0781CC6F21F00D260EF /* LaunchScreen.storyboard */,
+				FCBBE07B1CC6F21F00D260EF /* Info.plist */,
 			);
 			path = ButtonManager;
 			sourceTree = "<group>";
 		};
-		FCBBE0601CC6EF2700D260EF /* ButtonManager */ = {
+		FCBBE0831CC6F21F00D260EF /* ButtonManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				FCBBE0611CC6EF2700D260EF /* ButtonManager.swift */,
+				FCBBE0841CC6F21F00D260EF /* ButtonManagerTests.swift */,
+				FCBBE0861CC6F21F00D260EF /* Info.plist */,
+			);
+			path = ButtonManagerTests;
+			sourceTree = "<group>";
+		};
+		FCBBE08E1CC6F21F00D260EF /* ButtonManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCBBE08F1CC6F21F00D260EF /* ButtonManagerUITests.swift */,
+				FCBBE0911CC6F21F00D260EF /* Info.plist */,
+			);
+			path = ButtonManagerUITests;
+			sourceTree = "<group>";
+		};
+		FCBBE09D1CC6F27000D260EF /* ButtonManager */ = {
+			isa = PBXGroup;
+			children = (
+				FCBBE09E1CC6F27000D260EF /* ButtonManager.swift */,
 			);
 			path = ButtonManager;
 			sourceTree = "<group>";
@@ -78,13 +139,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCBBE04A1CC6EF1500D260EF /* ButtonManager */ = {
+		FCBBE06B1CC6F21F00D260EF /* ButtonManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCBBE05D1CC6EF1500D260EF /* Build configuration list for PBXNativeTarget "ButtonManager" */;
+			buildConfigurationList = FCBBE0941CC6F21F00D260EF /* Build configuration list for PBXNativeTarget "ButtonManager" */;
 			buildPhases = (
-				FCBBE0471CC6EF1500D260EF /* Sources */,
-				FCBBE0481CC6EF1500D260EF /* Frameworks */,
-				FCBBE0491CC6EF1500D260EF /* Resources */,
+				FCBBE0681CC6F21F00D260EF /* Sources */,
+				FCBBE0691CC6F21F00D260EF /* Frameworks */,
+				FCBBE06A1CC6F21F00D260EF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,25 +153,69 @@
 			);
 			name = ButtonManager;
 			productName = ButtonManager;
-			productReference = FCBBE04B1CC6EF1500D260EF /* ButtonManager.app */;
+			productReference = FCBBE06C1CC6F21F00D260EF /* ButtonManager.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FCBBE07F1CC6F21F00D260EF /* ButtonManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBBE0971CC6F21F00D260EF /* Build configuration list for PBXNativeTarget "ButtonManagerTests" */;
+			buildPhases = (
+				FCBBE07C1CC6F21F00D260EF /* Sources */,
+				FCBBE07D1CC6F21F00D260EF /* Frameworks */,
+				FCBBE07E1CC6F21F00D260EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBBE0821CC6F21F00D260EF /* PBXTargetDependency */,
+			);
+			name = ButtonManagerTests;
+			productName = ButtonManagerTests;
+			productReference = FCBBE0801CC6F21F00D260EF /* ButtonManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCBBE08A1CC6F21F00D260EF /* ButtonManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBBE09A1CC6F21F00D260EF /* Build configuration list for PBXNativeTarget "ButtonManagerUITests" */;
+			buildPhases = (
+				FCBBE0871CC6F21F00D260EF /* Sources */,
+				FCBBE0881CC6F21F00D260EF /* Frameworks */,
+				FCBBE0891CC6F21F00D260EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBBE08D1CC6F21F00D260EF /* PBXTargetDependency */,
+			);
+			name = ButtonManagerUITests;
+			productName = ButtonManagerUITests;
+			productReference = FCBBE08B1CC6F21F00D260EF /* ButtonManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FCBBE0431CC6EF1500D260EF /* Project object */ = {
+		FCBBE0641CC6F21F00D260EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Julio Fernandes";
 				TargetAttributes = {
-					FCBBE04A1CC6EF1500D260EF = {
+					FCBBE06B1CC6F21F00D260EF = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					FCBBE07F1CC6F21F00D260EF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FCBBE06B1CC6F21F00D260EF;
+					};
+					FCBBE08A1CC6F21F00D260EF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FCBBE06B1CC6F21F00D260EF;
 					};
 				};
 			};
-			buildConfigurationList = FCBBE0461CC6EF1500D260EF /* Build configuration list for PBXProject "ButtonManager" */;
+			buildConfigurationList = FCBBE0671CC6F21F00D260EF /* Build configuration list for PBXProject "ButtonManager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,55 +223,100 @@
 				en,
 				Base,
 			);
-			mainGroup = FCBBE0421CC6EF1500D260EF;
-			productRefGroup = FCBBE04C1CC6EF1500D260EF /* Products */;
+			mainGroup = FCBBE0631CC6F21F00D260EF;
+			productRefGroup = FCBBE06D1CC6F21F00D260EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCBBE04A1CC6EF1500D260EF /* ButtonManager */,
+				FCBBE06B1CC6F21F00D260EF /* ButtonManager */,
+				FCBBE07F1CC6F21F00D260EF /* ButtonManagerTests */,
+				FCBBE08A1CC6F21F00D260EF /* ButtonManagerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FCBBE0491CC6EF1500D260EF /* Resources */ = {
+		FCBBE06A1CC6F21F00D260EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCBBE0591CC6EF1500D260EF /* LaunchScreen.storyboard in Resources */,
-				FCBBE0561CC6EF1500D260EF /* Assets.xcassets in Resources */,
-				FCBBE0541CC6EF1500D260EF /* Main.storyboard in Resources */,
+				FCBBE07A1CC6F21F00D260EF /* LaunchScreen.storyboard in Resources */,
+				FCBBE0771CC6F21F00D260EF /* Assets.xcassets in Resources */,
+				FCBBE0751CC6F21F00D260EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBBE07E1CC6F21F00D260EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBBE0891CC6F21F00D260EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FCBBE0471CC6EF1500D260EF /* Sources */ = {
+		FCBBE0681CC6F21F00D260EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCBBE0511CC6EF1500D260EF /* ViewController.swift in Sources */,
-				FCBBE04F1CC6EF1500D260EF /* AppDelegate.swift in Sources */,
-				FCBBE0621CC6EF2700D260EF /* ButtonManager.swift in Sources */,
+				FCBBE0721CC6F21F00D260EF /* ViewController.swift in Sources */,
+				FCBBE0701CC6F21F00D260EF /* AppDelegate.swift in Sources */,
+				FCBBE09F1CC6F27000D260EF /* ButtonManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBBE07C1CC6F21F00D260EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBBE0851CC6F21F00D260EF /* ButtonManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBBE0871CC6F21F00D260EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBBE0901CC6F21F00D260EF /* ButtonManagerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FCBBE0821CC6F21F00D260EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBBE06B1CC6F21F00D260EF /* ButtonManager */;
+			targetProxy = FCBBE0811CC6F21F00D260EF /* PBXContainerItemProxy */;
+		};
+		FCBBE08D1CC6F21F00D260EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBBE06B1CC6F21F00D260EF /* ButtonManager */;
+			targetProxy = FCBBE08C1CC6F21F00D260EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		FCBBE0521CC6EF1500D260EF /* Main.storyboard */ = {
+		FCBBE0731CC6F21F00D260EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCBBE0531CC6EF1500D260EF /* Base */,
+				FCBBE0741CC6F21F00D260EF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FCBBE0571CC6EF1500D260EF /* LaunchScreen.storyboard */ = {
+		FCBBE0781CC6F21F00D260EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCBBE0581CC6EF1500D260EF /* Base */,
+				FCBBE0791CC6F21F00D260EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +324,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FCBBE05B1CC6EF1500D260EF /* Debug */ = {
+		FCBBE0921CC6F21F00D260EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +370,7 @@
 			};
 			name = Debug;
 		};
-		FCBBE05C1CC6EF1500D260EF /* Release */ = {
+		FCBBE0931CC6F21F00D260EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +409,7 @@
 			};
 			name = Release;
 		};
-		FCBBE05E1CC6EF1500D260EF /* Debug */ = {
+		FCBBE0951CC6F21F00D260EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -270,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		FCBBE05F1CC6EF1500D260EF /* Release */ = {
+		FCBBE0961CC6F21F00D260EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -281,27 +431,89 @@
 			};
 			name = Release;
 		};
+		FCBBE0981CC6F21F00D260EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jjfernandes87.ButtonManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonManager.app/ButtonManager";
+			};
+			name = Debug;
+		};
+		FCBBE0991CC6F21F00D260EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jjfernandes87.ButtonManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonManager.app/ButtonManager";
+			};
+			name = Release;
+		};
+		FCBBE09B1CC6F21F00D260EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jjfernandes87.ButtonManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonManager;
+			};
+			name = Debug;
+		};
+		FCBBE09C1CC6F21F00D260EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jjfernandes87.ButtonManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonManager;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCBBE0461CC6EF1500D260EF /* Build configuration list for PBXProject "ButtonManager" */ = {
+		FCBBE0671CC6F21F00D260EF /* Build configuration list for PBXProject "ButtonManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCBBE05B1CC6EF1500D260EF /* Debug */,
-				FCBBE05C1CC6EF1500D260EF /* Release */,
+				FCBBE0921CC6F21F00D260EF /* Debug */,
+				FCBBE0931CC6F21F00D260EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCBBE05D1CC6EF1500D260EF /* Build configuration list for PBXNativeTarget "ButtonManager" */ = {
+		FCBBE0941CC6F21F00D260EF /* Build configuration list for PBXNativeTarget "ButtonManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCBBE05E1CC6EF1500D260EF /* Debug */,
-				FCBBE05F1CC6EF1500D260EF /* Release */,
+				FCBBE0951CC6F21F00D260EF /* Debug */,
+				FCBBE0961CC6F21F00D260EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCBBE0971CC6F21F00D260EF /* Build configuration list for PBXNativeTarget "ButtonManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBBE0981CC6F21F00D260EF /* Debug */,
+				FCBBE0991CC6F21F00D260EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCBBE09A1CC6F21F00D260EF /* Build configuration list for PBXNativeTarget "ButtonManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBBE09B1CC6F21F00D260EF /* Debug */,
+				FCBBE09C1CC6F21F00D260EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FCBBE0431CC6EF1500D260EF /* Project object */;
+	rootObject = FCBBE0641CC6F21F00D260EF /* Project object */;
 }

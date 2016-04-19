@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FCBBE04A1CC6EF1500D260EF"
+               BlueprintIdentifier = "FCBBE06B1CC6F21F00D260EF"
                BuildableName = "ButtonManager.app"
                BlueprintName = "ButtonManager"
                ReferencedContainer = "container:ButtonManager.xcodeproj">
@@ -28,11 +28,31 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FCBBE07F1CC6F21F00D260EF"
+               BuildableName = "ButtonManagerTests.xctest"
+               BlueprintName = "ButtonManagerTests"
+               ReferencedContainer = "container:ButtonManager.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FCBBE08A1CC6F21F00D260EF"
+               BuildableName = "ButtonManagerUITests.xctest"
+               BlueprintName = "ButtonManagerUITests"
+               ReferencedContainer = "container:ButtonManager.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FCBBE04A1CC6EF1500D260EF"
+            BlueprintIdentifier = "FCBBE06B1CC6F21F00D260EF"
             BuildableName = "ButtonManager.app"
             BlueprintName = "ButtonManager"
             ReferencedContainer = "container:ButtonManager.xcodeproj">
@@ -55,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FCBBE04A1CC6EF1500D260EF"
+            BlueprintIdentifier = "FCBBE06B1CC6F21F00D260EF"
             BuildableName = "ButtonManager.app"
             BlueprintName = "ButtonManager"
             ReferencedContainer = "container:ButtonManager.xcodeproj">
@@ -74,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FCBBE04A1CC6EF1500D260EF"
+            BlueprintIdentifier = "FCBBE06B1CC6F21F00D260EF"
             BuildableName = "ButtonManager.app"
             BlueprintName = "ButtonManager"
             ReferencedContainer = "container:ButtonManager.xcodeproj">
