@@ -71,5 +71,3 @@ func createSimpleButtonManagerDisable() {
 
 ```
 # License
-TODO.
-
