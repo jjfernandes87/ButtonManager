@@ -9,6 +9,7 @@ Você pode configurar a aparência do botão através do Xcode Inspector
 ![Xcode Inspector]
 (http://i.imgur.com/9DcgGVr.png?1)
 
+![Xcode Inspector]
 (http://i.imgur.com/fplQvsU.png?1)
 
 Ou você pode criar o botão em seu próprio código, fazendo isso:
