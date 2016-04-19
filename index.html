@@ -37,54 +37,54 @@
 
 <p><code>
 override func viewDidLoad() {</br>
-  &nbsp;super.viewDidLoad()</br>
-  &nbsp;createSimpleButtonManagerNoLoading()</br>
-  &nbsp;createSimpleButtonManagerWithLoading()</br>
-  &nbsp;createSimpleButtonManagerDisable()</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super.viewDidLoad()</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;createSimpleButtonManagerNoLoading()</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;createSimpleButtonManagerWithLoading()</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;createSimpleButtonManagerDisable()</br>
 }
 </code></p>
 
 <p><code>
 func createSimpleButtonManagerNoLoading() {</br>
-    &nbsp;let button = ButtonManager(frame: CGRectMake(15, 140, 345, 44))</br>
-    &nbsp;button.setTitle("no loading", forState: .Normal)</br>
-    &nbsp;button.fillColor = UIColor.lightGrayColor()</br>
-    &nbsp;button.strokeColor = UIColor.darkGrayColor()</br>
-    &nbsp;button.textColor = UIColor.darkGrayColor()</br>
-    &nbsp;button.loading = false</br>
-    &nbsp;button.cornerRadius = 5</br>
-    &nbsp;button.borderWidth = 1</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let button = ButtonManager(frame: CGRectMake(15, 140, 345, 44))</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.setTitle("no loading", forState: .Normal)</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.fillColor = UIColor.lightGrayColor()</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.strokeColor = UIColor.darkGrayColor()</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.textColor = UIColor.darkGrayColor()</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.loading = false</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.cornerRadius = 5</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.borderWidth = 1</br>
     </br>
-    &nbsp;view.addSubview(button)</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view.addSubview(button)</br>
 }
 </code></p>
 
 <p><code>
 func createSimpleButtonManagerWithLoading() {</br>
-    &nbsp;let button = ButtonManager(frame: CGRectMake(15, 204, 345, 44))</br>
-    &nbsp;button.setTitle("with loading", forState: .Normal)</br>
-    &nbsp;button.fillColor = UIColor.darkGrayColor()</br>
-    &nbsp;button.strokeColor = UIColor.lightGrayColor()</br>
-    &nbsp;button.textColor = UIColor.lightGrayColor()</br>
-    &nbsp;button.cornerRadius = 5</br>
-    &nbsp;button.borderWidth = 1</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let button = ButtonManager(frame: CGRectMake(15, 204, 345, 44))</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.setTitle("with loading", forState: .Normal)</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.fillColor = UIColor.darkGrayColor()</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.strokeColor = UIColor.lightGrayColor()</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.textColor = UIColor.lightGrayColor()</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.cornerRadius = 5</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.borderWidth = 1</br>
     </br>
-    &nbsp;view.addSubview(button)</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view.addSubview(button)</br>
 }
 </code></p>
 
 <p><code>
 func createSimpleButtonManagerDisable() {</br>
-    &nbsp;let button = ButtonManager(frame: CGRectMake(15, 268, 345, 44))</br>
-    &nbsp;button.setTitle("disable", forState: .Normal)</br>
-    &nbsp;button.fillColor = UIColor.lightGrayColor()</br>
-    &nbsp;button.strokeColor = UIColor.lightGrayColor()</br>
-    &nbsp;button.textColor = UIColor.darkGrayColor()</br>
-    &nbsp;button.cornerRadius = 5</br>
-    &nbsp;button.borderWidth = 1</br>
-    &nbsp;button.disable = false</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let button = ButtonManager(frame: CGRectMake(15, 268, 345, 44))</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.setTitle("disable", forState: .Normal)</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.fillColor = UIColor.lightGrayColor()</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.strokeColor = UIColor.lightGrayColor()</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.textColor = UIColor.darkGrayColor()</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.cornerRadius = 5</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.borderWidth = 1</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button.disable = false</br>
     </br>
-    &nbsp;view.addSubview(button)</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view.addSubview(button)</br>
 }
 </code></p>
 
